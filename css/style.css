@@ -2,6 +2,11 @@ body {
     margin: 0;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     background-color: #8dc63f;
+    cursor: url(../img/green-cursor.png), default;
+}
+
+a:hover {
+    cursor: url(../img/green-cursor-link.png), auto;
 }
 
 .wrapper {
