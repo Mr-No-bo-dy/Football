@@ -19,17 +19,23 @@ a:hover {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
     padding: 25px 0;
 }
 
 .name {
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    text-align: center;
 }
 
-.name img {
-    margin-left: 35px;
+.ball {
+    margin: 0 35px;
     min-width: 102px;
     transition: all 1s ease;
 }
@@ -40,6 +46,10 @@ a:hover {
 
 .name strong {
     display: block;
+}
+
+.contacts {
+    text-align: center;
 }
 
 .name p,
@@ -55,28 +65,27 @@ a:hover {
     font-size: 44px;
 }
 
-.name em,
-.contacts em {
+.name i,
+.contacts i {
     font-size: 14px;
     color: #5a5a5a;
 }
 
-.contacts {
-    text-align: right;
-}
-
 .main-pic {
     width: 100%;
+    min-height: 200px;
+    object-fit: cover;
+    object-position: 75%;
 }
 
 .main {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 25px 0;
 }
 
 .article {
-    max-width: 600px;
     font-size: 14px;
     line-height: 21px;
     color: #343434;
@@ -89,7 +98,8 @@ a:hover {
 }
 
 .aside {
-    width: 300px;
+    min-width: 290px;
+    width: 100%;
 }
 
 .aside p {
@@ -127,4 +137,30 @@ a:hover {
     font-size: 14px;
     color: #fff;
     background-color: #39930d;
+}
+
+@media screen and (min-width: 425px) {
+    .name {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 625px) {
+    .header {
+        justify-content: space-between;
+    }
+
+    .contacts {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .main {
+        flex-wrap: nowrap;
+    }
+
+    .article {
+        max-width: 600px;
+    }
 }
