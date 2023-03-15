@@ -1,166 +1,166 @@
 body {
-    margin: 0;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    background-color: #8dc63f;
-    cursor: url(../img/green-cursor.png), default;
+   margin: 0;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   background-color: #8dc63f;
+   cursor: url(../img/green-cursor.png), default;
 }
 
 a:hover {
-    cursor: url(../img/green-cursor-link.png), auto;
+   cursor: url(../img/green-cursor-link.png), auto;
 }
 
 .wrapper {
-    margin: 0 auto;
-    padding: 0 15px;
-    max-width: 960px;
-    background-color: #fff;
-    box-sizing: border-box;
+   margin: 0 auto;
+   padding: 0 15px;
+   max-width: 960px;
+   background-color: #fff;
+   box-sizing: border-box;
 }
 
 .header {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    row-gap: 20px;
-    padding: 25px 0;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   row-gap: 20px;
+   padding: 25px 0;
 }
 
 .name {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    row-gap: 10px;
-    text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   row-gap: 10px;
+   text-align: center;
 }
 
 .ball {
-    margin: 0 35px;
-    min-width: 102px;
-    transition: all 1s ease;
+   margin: 0 35px;
+   min-width: 102px;
+   transition: all 1s ease;
 }
 
 .name img:hover {
-    padding-left: 200px;
+   padding-left: 200px;
 }
 
 .name strong {
-    display: block;
+   display: block;
 }
 
 .contacts {
-    text-align: center;
+   text-align: center;
 }
 
 .name p,
 .contacts p,
 .contacts a {
-    margin: 0;
-    font-size: 22px;
-    text-decoration: none;
-    color: #39930d;
+   margin: 0;
+   font-size: 22px;
+   text-decoration: none;
+   color: #39930d;
 }
 
 .name strong {
-    font-size: 44px;
+   font-size: 44px;
 }
 
 .name i,
 .contacts i {
-    font-size: 14px;
-    color: #5a5a5a;
+   font-size: 14px;
+   color: #5a5a5a;
 }
 
 .main-pic {
-    width: 100%;
-    min-height: 200px;
-    object-fit: cover;
-    object-position: 75%;
+   width: 100%;
+   min-height: 200px;
+   object-fit: cover;
+   object-position: 75%;
 }
 
 .main {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 25px 0;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 25px 0;
 }
 
 .article {
-    font-size: 14px;
-    line-height: 21px;
-    color: #343434;
+   font-size: 14px;
+   line-height: 21px;
+   color: #343434;
 }
 
 .article h1 {
-    margin: 0;
-    font-size: 24px;
-    color: #39930d;
+   margin: 0;
+   font-size: 24px;
+   color: #39930d;
 }
 
 .aside {
-    min-width: 290px;
-    width: 100%;
+   min-width: 290px;
+   width: 100%;
 }
 
 .aside p {
-    margin: 0;
-    padding: 11px 20px;
-    font-size: 18px;
-    color: #fff;
-    background-color: #39930d;
+   margin: 0;
+   padding: 11px 20px;
+   font-size: 18px;
+   color: #fff;
+   background-color: #39930d;
 }
 
 .aside ul {
-    list-style: none;
-    padding-left: 20px;
+   list-style: none;
+   padding-left: 20px;
 }
 
 .aside a {
-    display: block;
-    font-size: 14px;
-    line-height: 30px;
-    color: #39930d;
-    text-transform: uppercase;
-    transition: padding 1.2s ease;
+   display: block;
+   font-size: 14px;
+   line-height: 30px;
+   color: #39930d;
+   text-transform: uppercase;
+   transition: padding 1.2s ease;
 }
 
 .aside a:hover {
-    padding-left: 20px;
-    color: #fff;
-    text-decoration: none;
-    background-color: #5a5a5a;
+   padding-left: 20px;
+   color: #fff;
+   text-decoration: none;
+   background-color: #39930d;
 }
 
 .footer {
-    margin: 0 -15px;
-    padding: 15px;
-    font-size: 14px;
-    color: #fff;
-    background-color: #39930d;
+   margin: 0 -15px;
+   padding: 15px;
+   font-size: 14px;
+   color: #fff;
+   background-color: #39930d;
 }
 
 @media screen and (min-width: 425px) {
-    .name {
-        text-align: left;
-    }
+   .name {
+      text-align: left;
+   }
 }
 
 @media screen and (min-width: 625px) {
-    .header {
-        justify-content: space-between;
-    }
+   .header {
+      justify-content: space-between;
+   }
 
-    .contacts {
-        text-align: right;
-    }
+   .contacts {
+      text-align: right;
+   }
 }
 
 @media screen and (min-width: 700px) {
-    .main {
-        flex-wrap: nowrap;
-    }
+   .main {
+      flex-wrap: nowrap;
+   }
 
-    .article {
-        max-width: 600px;
-    }
+   .article {
+      max-width: 600px;
+   }
 }
